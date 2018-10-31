@@ -287,7 +287,6 @@ public class JavaFX extends Application {
         root.getChildren().add(l1);
         root.getChildren().add(instructions);
 
-        primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(root, 905,900,Color.BEIGE));
 //        primaryStage.initStyle(StageStyle.TRANSPARENT);
         primaryStage.setTitle("Shapes");
